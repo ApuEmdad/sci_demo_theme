@@ -15,50 +15,39 @@
     <div class="container">
         <div class="wedo-items text-center">
             <div class="row">
-                <!-- Single Item -->
-                <div class="single-item col-lg-3 col-md-6">
-                    <div class="item">
-                        <i class="flaticon-water-bottle"></i>
-                        <h4>Water Delivery</h4>
-                        <p>
-                            Always length letter adieus add number moment she. Promise few compass.
-                        </p>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                <!-- Single Item -->
-                <div class="single-item col-lg-3 col-md-6">
-                    <div class="item">
-                        <i class="flaticon-pharmacy"></i>
-                        <h4>Medicine Help</h4>
-                        <p>
-                            Always length letter adieus add number moment she. Promise few compass.
-                        </p>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                <!-- Single Item -->
-                <div class="single-item col-lg-3 col-md-6">
-                    <div class="item">
-                        <i class="flaticon-planet-earth"></i>
-                        <h4>Save Plants</h4>
-                        <p>
-                            Always length letter adieus add number moment she. Promise few compass.
-                        </p>
-                    </div>
-                </div>
-                <!-- End Single Item -->
-                <!-- Single Item -->
-                <div class="single-item col-lg-3 col-md-6">
-                    <div class="item">
-                        <i class="flaticon-home"></i>
-                        <h4>We Build &amp; Create</h4>
-                        <p>
-                            Always length letter adieus add number moment she. Promise few compass.
-                        </p>
-                    </div>
-                </div>
-                <!-- End Single Item -->
+
+                <?php
+                // Define an array of items
+                $items = [
+                    [
+                        'icon' => 'flaticon-water-bottle',
+                        'title' => 'Water Delivery',
+                        'description' => 'Always length letter adieus add number moment she. Promise few compass.'
+                    ],
+                    [
+                        'icon' => 'flaticon-pharmacy',
+                        'title' => 'Medicine Help',
+                        'description' => 'Always length letter adieus add number moment she. Promise few compass.'
+                    ],
+                    [
+                        'icon' => 'flaticon-planet-earth',
+                        'title' => 'Save Plants',
+                        'description' => 'Always length letter adieus add number moment she. Promise few compass.'
+                    ],
+                    [
+                        'icon' => 'flaticon-home',
+                        'title' => 'We Build & Create',
+                        'description' => 'Always length letter adieus add number moment she. Promise few compass.'
+                    ]
+                ];
+
+                // Loop through each item and output HTML
+                foreach ($items as $item) { ?>
+                    <!-- Single Item -->
+                    <?php include 'service_card.php' ?>
+                    <!-- End Single Item -->
+                <?php } ?>
+
             </div>
         </div>
     </div>

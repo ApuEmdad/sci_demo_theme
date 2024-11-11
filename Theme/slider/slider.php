@@ -17,51 +17,33 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner carousel-zoom">
-            <div class="carousel-item active">
-                <div class="slider-thumb bg-cover" style="background-image: url(../../assets/img/banner/9.jpg);"></div>
-                <div class="box-table">
-                    <div class="box-cell shadow dark">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="content">
-                                        <h2 data-animation="animated slideInRight">Join with us and <strong>save the world</strong></h2>
-                                        <p data-animation="animated slideInLeft">
-                                            Numerous ladyship so raillery humoured goodness received an. So narrow formal length my
-                                            highly longer afford oh. Tall neat he make.
-                                        </p>
-                                        <a data-animation="animated fadeInUp" class="btn circle btn-light effect btn-md"
-                                            href="#">Discover More</a>
+            <?php for ($i = 0; $i < 2; $i++) { ?>
+                <div class="carousel-item <?php echo $i === 0 ? 'active' : ''; ?>">
+                    <div class="slider-thumb bg-cover" style="background-image: url(../../assets/img/banner/9.jpg);"></div>
+                    <div class="box-table">
+                        <div class="box-cell shadow dark">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="content">
+                                            <h2 data-animation="animated slideInRight">Join with us and <strong>save the world</strong></h2>
+                                            <p data-animation="animated slideInLeft">
+                                                Numerous ladyship so raillery humoured goodness received an. So narrow formal length my
+                                                highly longer afford oh. Tall neat he make.
+                                            </p>
+                                            <a data-animation="animated fadeInUp" class="btn circle btn-light effect btn-md" href="#">Discover More</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="slider-thumb bg-cover" style="background-image: url(../../assets/img/banner/15.jpg);"></div>
-                <div class="box-table">
-                    <div class="box-cell shadow dark">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-9">
-                                    <div class="content">
-                                        <h2 data-animation="animated slideInRight">Help us to save <strong>Homeless People</strong></h2>
-                                        <p data-animation="animated slideInLeft">
-                                            Numerous ladyship so raillery humoured goodness received an. So narrow formal length my
-                                            highly longer afford oh. Tall neat he make.
-                                        </p>
-                                        <a data-animation="animated fadeInUp" class="btn circle btn-light effect btn-md"
-                                            href="#">Discover More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
+
         </div>
+
+
         <!-- End Wrapper for slides -->
 
     </div>

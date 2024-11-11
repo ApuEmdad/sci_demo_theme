@@ -1,109 +1,25 @@
-<footer class="bg-dark text-light">
-    <!-- Fixed Shape -->
-    <div class="fixed-shape">
-        <img src="../assets/img/footer-bg.png" alt="Shape">
-    </div>
-    <!-- Fixed Shape -->
-    <div class="container">
-        <div class="f-items default-padding">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 item">
-                    <div class="f-item about">
-                        <img src="../assets/img/logo-light.png" alt="Logo">
-                        <p>
-                            Happen active county. Winding morning am shyness evident to. Garrets because elderly new manners however one
-                            village she.
-                        </p>
-                        <form action="#">
-                            <input type="email" placeholder="Your Email" class="form-control" name="email">
-                            <button type="submit"> Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 item">
-                    <div class="f-item link">
-                        <h4 class="widget-title">Explore</h4>
-                        <ul>
-                            <li>
-                                <a href="#">Our Causes</a>
-                            </li>
-                            <li>
-                                <a href="#">New Campaign</a>
-                            </li>
-                            <li>
-                                <a href="#">Site Map</a>
-                            </li>
-                            <li>
-                                <a href="#">Donate</a>
-                            </li>
-                            <li>
-                                <a href="#">Terms</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<!-- jQuery Frameworks
+    ============================================= -->
+<script src="assets/js/jquery-1.12.4.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/equal-height.min.js"></script>
+<script src="assets/js/jquery.appear.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/modernizr.custom.13711.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/progress-bar.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/count-to.js"></script>
+<script src="assets/js/YTPlayer.min.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/bootsnav.js"></script>
+<script src="assets/js/main.js"></script>
 
-                <div class="col-lg-3 col-md-6 item">
-                    <div class="f-item">
-                        <h4 class="widget-title">Contact Info</h4>
-                        <div class="address">
-                            <ul>
-                                <li>
-                                    <strong>Address:</strong>
-                                    5919 Trussville Crossings Pkwy, Birmingham AL 35235
-                                </li>
-                                <li>
-                                    <strong>Email:</strong>
-                                    <a href="mailto:info@validtheme.com">info@validtheme.com</a>
-                                </li>
-                                <li>
-                                    <strong>Phone:</strong>
-                                    <a href="tel:2151234567">+123 34598768</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-md-6 item">
-                    <div class="f-item recent-post">
-                        <h4 class="widget-title">Latest News</h4>
-                        <div class="item">
-                            <a href="#">Delighted prevailed supported too not remainder perpetual.</a>
-                            <span><i class="fas fa-calendar-alt"></i> 22 Aug, 2020 - <a href="#">Admin</a></span>
-                        </div>
-                        <div class="item">
-                            <a href="#">Speaking trifling an to unpacked moderate debating learnin management. </a>
-                            <span><i class="fas fa-calendar-alt"></i> 15 Nov, 2020 - <a href="#">User</a></span>
-                        </div>
-                    </div>
-                </div>
+</body>
 
-            </div>
-        </div>
-    </div>
-    <!-- Start Footer Bottom -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Copyright © 2020. Designed by <a href="#">validtemplatess</a></p>
-                </div>
-                <div class="col-md-6 text-right link">
-                    <ul>
-                        <li>
-                            <a href="#">Terms</a>
-                        </li>
-                        <li>
-                            <a href="#">Privacy</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Footer Bottom -->
-</footer>
+</html>

@@ -23,121 +23,18 @@
         <div class="row">
             <div class="col-lg-12 causes-items">
                 <div class="recent-causes-carousel owl-carousel owl-theme">
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="#">
-                                <img src="../assets/img/donation/1.jpg" alt="Thumb">
-                                <span class="overlay">
-                                    <strong>Created : </strong> Nov 7, 2020
-                                </span>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">Give Education To Africa</a>
-                            </h4>
-                            <p>
-                                Especially do at he possession insensible manner sympathize boisterous it.
-                            </p>
-                            <div class="progress-box">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width:45%">
-                                        <span class="progress-bar wow fadeInLeft">45%</span>
-                                    </div>
-                                </div>
-                                <p>Raised : $3900 <span>Goal : $8700</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="#">
-                                <img src="../assets/img/donation/2.jpg" alt="Thumb">
-                                <div class="trend">
-                                    <i class="fas fa-bolt"></i> Trend
-                                </div>
-                                <span class="overlay">
-                                    <strong>Created : </strong> Aug 17, 2020
-                                </span>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">Water For All Children</a>
-                            </h4>
-                            <p>
-                                Especially do at he possession insensible manner sympathize boisterous it.
-                            </p>
-                            <div class="progress-box">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width:67%">
-                                        <span class="progress-bar wow fadeInLeft">67%</span>
-                                    </div>
-                                </div>
-                                <p>Raised : $4900 <span>Goal : $7800</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="#">
-                                <img src="../assets/img/donation/3.jpg" alt="Thumb">
-                                <span class="overlay">
-                                    <strong>Created : </strong> Dec 12, 2020
-                                </span>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">Food for Syrian</a>
-                            </h4>
-                            <p>
-                                Especially do at he possession insensible manner sympathize boisterous it.
-                            </p>
-                            <div class="progress-box">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width:70%">
-                                        <span class="progress-bar wow fadeInLeft">70%</span>
-                                    </div>
-                                </div>
-                                <p>Raised : $7600 <span>Goal : $9800</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <a href="#">
-                                <img src="../assets/img/donation/4.jpg" alt="Thumb">
-                                <span class="overlay">
-                                    <strong>Created : </strong> Mar 26, 2020
-                                </span>
-                            </a>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">Lifeskills for Children</a>
-                            </h4>
-                            <p>
-                                Especially do at he possession insensible manner sympathize boisterous it.
-                            </p>
-                            <div class="progress-box">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width:53%">
-                                        <span class="progress-bar wow fadeInLeft">53%</span>
-                                    </div>
-                                </div>
-                                <p>Raised : $4599 <span>Goal : $7688</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
+                    <?php for ($i = 1; $i <= 4; $i++) {
+                        $cardData = [
+                            'title' => "Give Education To Africa $i",
+                            'description' => "This is description for card $i.",
+                            'image' => "./assets/img/donation/$i.jpg"
+                        ];
+                    ?>
+
+                        <?php include 'component/card.php' ?>
+
+                    <?php } ?>
+
                 </div>
             </div>
         </div>
