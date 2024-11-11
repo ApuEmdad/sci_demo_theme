@@ -1,7 +1,8 @@
 <!-- Start Header -->
-<?php include 'layout/header.php'; ?>
-<?php include 'layout/header-top.php'; ?>
-<?php include 'layout/navbar.php'; ?>
+<?php
+$page = 'home';
+include 'layout/header.php';
+?>
 <!-- End Header -->
 
 <!-- Start Banner 
@@ -72,6 +73,6 @@
 
 <!-- Start Footer 
     ============================================= -->
-<?php include 'layout/footer-bottom.php'; ?>
+
 <?php include 'layout/footer.php'; ?>
 <!-- End Footer -->

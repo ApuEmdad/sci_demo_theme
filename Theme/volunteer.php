@@ -4,12 +4,6 @@
 <?php include 'layout/navbar.php'; ?>
 <!-- End Header -->
 
-<!-- Start Breadcrumb 
-    ============================================= -->
-<?php include 'component/breadcrumb.php' ?>
-
-</div>
-<!-- End Breadcrumb -->
 
 <!-- Start Voluntter 
     ============================================= -->

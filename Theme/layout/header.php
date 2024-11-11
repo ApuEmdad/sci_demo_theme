@@ -45,3 +45,14 @@
   <!-- Preloader Start -->
   <div class="se-pre-con"></div>
   <!-- Preloader Ends -->
+  <?php include 'header-top.php'; ?>
+  <?php include 'navbar.php'; ?>
+
+  <!-- Start Breadcrumb 
+    ============================================= -->
+  <?php
+  if (!isset($page) || $page !== 'home') {
+    include 'breadcrumb.php';
+  }
+  ?>
+  <!-- End Breadcrumb -->
