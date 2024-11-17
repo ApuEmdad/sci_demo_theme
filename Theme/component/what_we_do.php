@@ -44,7 +44,11 @@
                 // Loop through each item and output HTML
                 foreach ($items as $item) { ?>
                     <!-- Single Item -->
-                    <?php include 'service_card.php' ?>
+                    <div class="single-item col-lg-3 col-md-6">
+                        <div class="item">
+                            <?php include 'service_card.php' ?>
+                        </div>
+                    </div>
                     <!-- End Single Item -->
                 <?php } ?>
 
