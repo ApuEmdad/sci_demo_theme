@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <?php for ($i = 1; $i <= 3; $i++) { ?>
-                        <?php include 'component/card_2.php' ?>
+                        <?php include 'component/donation_card_3.php' ?>
                     <?php } ?>
                 </div>
             </div>

@@ -8,7 +8,6 @@
                         include 'component/donation_card.php';
                     }
                     ?>
-
                 </div>
                 <?php include 'component/pagination.php'; ?>
             </div>

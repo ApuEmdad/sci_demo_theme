@@ -30,9 +30,7 @@
                             'image' => "./assets/img/donation/$i.jpg"
                         ];
                     ?>
-
-                        <?php include 'component/card.php' ?>
-
+                        <?php include 'component/donation_card_2.php' ?>
                     <?php } ?>
 
                 </div>

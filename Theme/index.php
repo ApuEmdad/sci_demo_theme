@@ -19,7 +19,6 @@ include 'layout/header.php';
 <!-- Star Recent Causes Area
     ============================================= -->
 <?php include 'content/pages/home/recent_causes.php' ?>
-
 <!-- End Recent Causes Area -->
 
 <!-- Start What We Do 
