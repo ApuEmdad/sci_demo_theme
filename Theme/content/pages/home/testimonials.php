@@ -1,4 +1,4 @@
-<div class="testimonials-area carousel-shadow default-padding">
+<div class="testimonials-area carousel-shadow default-padding  <?php echo $bg ?>">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
