@@ -54,7 +54,7 @@ include 'component/volunteer_cards.php' ?>
 
 <!-- Start Blog 
     ============================================= -->
-<?php include 'component/blogs_2.php' ?>
+<?php include 'component/blogs.php' ?>
 <!-- End Blog Area -->
 
 <!-- Start Footer 

@@ -1,4 +1,4 @@
-<div class="recent-causes-area carousel-shadow causes-area default-padding-bottom">
+<div class="causes-area default-padding bottom-less <?php echo $bg ?>">
     <div class="container">
         <div class="heading-left">
             <div class="row">
