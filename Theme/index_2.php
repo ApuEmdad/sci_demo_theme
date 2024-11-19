@@ -32,7 +32,8 @@ include 'layout/header.php';
 
 <!-- Start Voluntter 
     ============================================= -->
-<?php include 'component/volunteer_cards_with_title.php' ?>
+<?php $title = true;
+include 'component/volunteer_cards.php' ?>
 <!-- End Voluntter -->
 
 <!-- Start Event Area 

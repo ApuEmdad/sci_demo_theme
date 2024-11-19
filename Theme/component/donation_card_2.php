@@ -1,4 +1,3 @@
-<div class="single-item col-lg-4 col-md-6">
     <div class="item">
         <div class="thumb">
             <a href="#">
@@ -28,4 +27,3 @@
             </div>
         </div>
     </div>
-</div>

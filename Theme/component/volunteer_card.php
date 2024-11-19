@@ -3,7 +3,7 @@
     <div class="item">
         <div class="thumb">
 
-            <img src="./assets/img/team/1.jpg" alt="Thumb">
+            <img src="./assets/img/teams/1.jpg" alt="Thumb">
             <div class="social">
                 <ul>
                     <li>

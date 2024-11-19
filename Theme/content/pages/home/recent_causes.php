@@ -23,14 +23,11 @@
         <div class="row">
             <div class="col-lg-12 causes-items">
                 <div class="recent-causes-carousel owl-carousel owl-theme">
-                    <?php for ($i = 1; $i <= 4; $i++) {
-                        $cardData = [
-                            'title' => "Give Education To Africa $i",
-                            'description' => "This is description for card $i.",
-                            'image' => "./assets/img/donation/$i.jpg"
-                        ];
-                    ?>
+
+                    <?php for ($i = 0; $i < 4; $i++) { ?>
+                        <!-- Single Item -->
                         <?php include 'component/donation_card_2.php' ?>
+                        <!-- End Single Item -->
                     <?php } ?>
 
                 </div>

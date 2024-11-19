@@ -7,7 +7,7 @@
 
 <!-- Start Voluntter 
     ============================================= -->
-<?php include 'content/pages/volunteer/volunteer_cards.php' ?>
+<?php include 'content/pages/volunteer/volunteers.php' ?>
 <!-- End Voluntter -->
 
 <!-- Start Footer 

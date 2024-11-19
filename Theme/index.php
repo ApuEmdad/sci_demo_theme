@@ -66,7 +66,9 @@ include 'layout/header.php';
 
 <!-- Start Blog 
     ============================================= -->
-<?php include 'component/blogs.php' ?>
+<?php
+$title = true;
+include 'component/blogs.php' ?>
 
 <!-- End Blog Area -->
 

@@ -60,19 +60,17 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Event</a>
                         <ul class="dropdown-menu">
-                            <li><a href="event_1.html">Event Version One</a></li>
+                            <li><a href="event.php">Event Version One</a></li>
                             <li><a href="event_2.php">Event Version Two</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
                         <ul class="dropdown-menu">
-                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                            <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-                            <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
                             <li><a href="blogs.php">Blog Grid Three Colum</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                            <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>
+                            <li><a href="blogs_2.php">Blogs With Sidebar</a></li>
+                            <li><a href="single_blog.php">Blog Single</a></li>
+
                         </ul>
                     </li>
                     <li>

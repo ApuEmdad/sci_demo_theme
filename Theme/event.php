@@ -5,7 +5,7 @@
 
 <!-- Start Event Area 
     ============================================= -->
-<?php include 'component/events.php' ?>
+<?php include 'content/pages/events/events.php' ?>
 
 <!-- End Event Area -->
 

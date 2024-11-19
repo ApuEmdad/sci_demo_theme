@@ -17,7 +17,7 @@
             <!-- Single Item -->
             <div class="item">
                 <div class="thumb">
-                    <img src="./assets/img/team/1.jpg" alt="Thumb">
+                    <img src="./assets/img/teams/1.jpg" alt="Thumb">
                     <div class="social">
                         <ul>
                             <li>
@@ -41,7 +41,7 @@
             <!-- Single Item -->
             <div class="item">
                 <div class="thumb">
-                    <img src="./assets/img/team/2.jpg" alt="Thumb">
+                    <img src="./assets/img/teams/2.jpg" alt="Thumb">
                     <div class="social">
                         <ul>
                             <li>
@@ -65,7 +65,7 @@
             <!-- Single Item -->
             <div class="item">
                 <div class="thumb">
-                    <img src="./assets/img/team/3.jpg" alt="Thumb">
+                    <img src="./assets/img/teams/3.jpg" alt="Thumb">
                     <div class="social">
                         <ul>
                             <li>
@@ -89,7 +89,7 @@
             <!-- Single Item -->
             <div class="item">
                 <div class="thumb">
-                    <img src="./assets/img/team/4.jpg" alt="Thumb">
+                    <img src="./assets/img/teams/4.jpg" alt="Thumb">
                     <div class="social">
                         <ul>
                             <li>

@@ -3,15 +3,18 @@
 <!-- End Header -->
 
 
-<!-- Start Blog
+<!-- Start Event Area 
     ============================================= -->
-<?php include 'content/pages/blogs/blogs.php' ?>
+<?php include 'content/pages/events/events_2.php' ?>
 
-<!-- End Blog -->
+<!-- End Event Area -->
 
 <!-- Start Footer 
     ============================================= -->
 <?php include 'layout/footer.php'; ?>
 <!-- End Footer -->
 
-</html>
+<!-- Start Footer 
+    ============================================= -->
+<?php include 'layout/footer.php'; ?>
+<!-- End Footer -->
